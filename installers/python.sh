@@ -6,10 +6,9 @@
 #################################
 
 echo "Installing Python 3..."
-brew install python
+sudo apt-get install python3-pip python3-dev python-virtualenv
 
 echo "Creating a virtual environment for Python..."
-pip3 install --upgrade virtualenv
 virtualenv --system-site-packages -p python3 ~/toolbox/python/vp3
 echo "# Virtual Python environment
 alias vp3=\"source ~/toolbox/python/vp3/bin/activate\"

@@ -33,6 +33,7 @@ sh $installers/update.sh
 sh $installers/java.sh
 
 # Python
+sh $installers/python.sh
 
 # Node
 
