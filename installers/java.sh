@@ -5,9 +5,5 @@
 # Java
 #################################
 
-echo "Installing Java..."
-brew cask install java
-echo "# Java
-export JAVA_HOME=\$(/usr/libexec/java_home)
-export JRE_HOME=\$(/usr/libexec/java_home)
-" >> ~/.bash_profile
+sudo apt-get install default-jre
+sudo apt-get install oracle-java8-jdk

@@ -30,6 +30,7 @@ mkdir toolbox/python
 sh $installers/update.sh
 
 # Java
+sh $installers/java.sh
 
 # Python
 
