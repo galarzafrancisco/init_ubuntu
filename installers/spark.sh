@@ -7,7 +7,7 @@
 
 echo "Downloading Spark..."
 cd ~/toolbox
-curl -OL "http://apache.mirror.digitalpacific.com.au/spark/spark-2.3.0/spark-2.3.0-bin-hadoop2.7.tgz"
+wget "http://apache.mirror.digitalpacific.com.au/spark/spark-2.3.0/spark-2.3.0-bin-hadoop2.7.tgz"
 tar -xvzf spark*
 rm spark*.tgz
 f=$(ls -d spark*)

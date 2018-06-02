@@ -36,14 +36,19 @@ sh $installers/java.sh
 sh $installers/python.sh
 
 # Node
+sh $installers/node.sh
 
 # Hadoop
+# sh $installers/hadoop.sh
 
 # Hive
+# sh $installers/hive.sh
 
 # Spark
+sh $installers/spark.sh
 
 # Solr
+sh $installers/solr.sh
 
 # PostgreSQL
 
