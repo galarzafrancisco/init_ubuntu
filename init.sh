@@ -1,7 +1,7 @@
 
 #!/bin/bash
 
-installers=$(pwd)
+installers=$(pwd)/installers
 
 ###########################################################################
 # create folders
