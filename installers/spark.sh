@@ -8,8 +8,8 @@
 echo "Downloading Spark..."
 cd ~/toolbox
 wget "http://apache.mirror.digitalpacific.com.au/spark/spark-2.3.0/spark-2.3.0-bin-hadoop2.7.tgz"
-tar -xvzf spark*
-rm spark*.tgz
+tar -xvzf *.tgz
+rm *.tgz
 f=$(ls -d spark*)
 mv $f spark
 cd ~

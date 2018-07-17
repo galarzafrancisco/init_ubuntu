@@ -6,7 +6,7 @@
 #################################
 
 echo "Installing Python 3..."
-sudo apt-get install python3-pip python3-dev python-virtualenv
+sudo apt-get --assume-yes install python3-pip python3-dev python-virtualenv
 
 echo "Creating a virtual environment for Python..."
 virtualenv --system-site-packages -p python3 ~/toolbox/python/vp3

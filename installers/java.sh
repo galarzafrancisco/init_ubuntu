@@ -5,5 +5,5 @@
 # Java
 #################################
 
-sudo apt-get install default-jre
-sudo apt-get install oracle-java8-jdk
+sudo apt-get --assume-yes install default-jre
+sudo apt-get --assume-yes install oracle-java8-jdk
