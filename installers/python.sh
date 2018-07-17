@@ -15,18 +15,18 @@ alias vp3=\"source ~/toolbox/python/vp3/bin/activate\"
 " >> ~/.bash_profile
 
 # Activate the virtual environment to install packages
-source ~/toolbox/python/vp3/bin/activate
+source ~/toolbox/python/vp3/bin/activate &
 
-pip install numpy
-pip install pandas
-pip install matplotlib
-pip install seaborn
-pip install --upgrade tensorflow
-pip install sklearn
-pip install pyspark
-pip install jupyter
+pip install numpy &
+pip install pandas &
+pip install matplotlib &
+pip install seaborn &
+pip install --upgrade tensorflow &
+pip install sklearn &
+pip install pyspark &
+pip install jupyter &
 echo "# Launch jupyter notebook
 alias nb=\"source ~/toolbox/python/vp3/bin/activate && jupyter notebook\"
-" >> ~/.bash_profile
+" >> ~/.bash_profile &
 
 deactivate

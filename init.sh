@@ -27,10 +27,10 @@ mkdir toolbox/python
 ###########################################################################
 
 # Update
-# sh $installers/update.sh
+sh $installers/update.sh
 
 # Java
-# sh $installers/java.sh
+sh $installers/java.sh
 
 # Python
 sh $installers/python.sh
@@ -51,6 +51,7 @@ sh $installers/postgres.sh
 sh $installers/spark.sh
 
 # Solr
-sh $installers/solr.sh
+# sh $installers/solr.sh
 
 # Google Cloud SDK
+sh $installers/google-cloud.sh
