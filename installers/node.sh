@@ -8,7 +8,7 @@
 echo "Downloading Node..."
 cd ~/toolbox
 wget "https://nodejs.org/dist/v8.11.2/node-v8.11.2-linux-x64.tar.xz"
-tar -xvzf node*
+tar -xvf node*
 rm node*.xz
 f=$(ls -d node*)
 mv $f node
